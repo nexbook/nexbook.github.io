@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Bebas+Neue|Charm|Darker+Grotesque|Gugi|Staatliches&display|Abel&display=swap" rel="stylesheet">
+
+    <title>NexBook | Rent</title>
+</head>
+<body onload="uploadItems(); loadCart()">
+    <nav class="navigation">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Rent</a>
+            <a href="contacts.html">Contact Us</a>
+        </div>
+        <div class="cart" onclick="window.location.href='checkout.html'">
+            <span id="cart_items" class="cart_items"></span>
+            <img class="img_cart" src="img/cart.png" alt="cart">
+            <span class="checkout">CHECKOUT</span>
+            
+        </div>
+        
+    </nav>    
+    <div id="" class="container--">
+        
+        <div class="shop">
+            <div class="dropdown--wrap">
+                <div class="dropdown">
+                    <button onclick="dropDownFunc()" class="dropbtn">Category</button>
+                    <span id="drop__cat"></span>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="" class="dropdown-content-a">AP Classes</a>
+                      <a href=""  class="dropdown-content-a">Test Prep</a>
+                      <a href=""  class="dropdown-content-a">English/Social Studies</a>
+                      <a href=""  class="dropdown-content-a">Math/Science</a>
+                      <a href=""  class="dropdown-content-a">ALL</a>
+                    </div>
+                </div>
+                
+            </div>    
+            <h2>AVAILABLE BOOKS</h2>
+            <hr class="hr__purple"><br>
+            <div id="grid" class="grid"></div>            
+        </div>
+        
+        <!-- <div class="logo logo__page" onclick="window.location.href='shop.html'"></div> -->
+            
+    </div>
+
+    <footer>
+        
+        <div class="footer--link">
+            <div>
+                Grandview High School <br>
+                20500 E Arapahoe Rd, Aurora, CO 80016 <br>
+                +1 720 886 5500 <br>
+                <img  class="school--logo" src="img/grandview.png" alt="">
+            </div>
+            <div class="logo logo__page" onclick="window.location.href='shop.html'"></div> 
+        </div>
+        <div class="footer--link-">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Rent</a>
+            <a href="contacts.html">Contact Us</a>
+        </div> 
+        <div class="">
+            <div>
+        
+                <img  class="logo--social" src="img/twitter2.png" alt="">
+                <img  class="logo--social" src="img/snapchat.png" alt="">
+            </div>
+            
+            <div class="copy">NexBook</div>
+            <div class="copy">&copy; 2019 by Daniela Solok & Aaron Vaddakan</div>
+        </div>
+        
+        
+    </footer>
+
+
+    <script src="scripts/script.js"></script>    
+    <script src="scripts/shoppingScripts.js"></script>    
+   
+    
+</body>
+</html>
