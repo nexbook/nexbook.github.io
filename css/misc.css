@@ -1,0 +1,18 @@
+.misc--title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.misc--subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+.misc--subtitle:hover{
+    color: chocolate;
+}
+.misc--content{
+    display: none;
+}

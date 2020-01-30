@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/card.css">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Bebas+Neue|Charm|Darker+Grotesque|Gugi|Staatliches&display|Abel&display=swap" rel="stylesheet">
 
-    <title>NexBook | Rent</title>
+    <title>NexBook | Shopping</title>
 </head>
 <body onload="uploadItems(); loadCart()">
     <nav class="navigation">
@@ -36,9 +36,9 @@
                     <button onclick="dropDownFunc()" class="dropbtn">Category</button>
                     <span id="drop__cat"></span>
                     <div id="myDropdown" class="dropdown-content">
-                      <a href="" class="dropdown-content-a">AP Classes</a>
+                      <!-- <a href="" class="dropdown-content-a">AP Classes</a> -->
                       <a href=""  class="dropdown-content-a">Test Prep</a>
-                      <a href=""  class="dropdown-content-a">English/Social Studies</a>
+                      <a href=""  class="dropdown-content-a">Languages/Social Studies</a>
                       <a href=""  class="dropdown-content-a">Math/Science</a>
                       <a href=""  class="dropdown-content-a">ALL</a>
                     </div>
@@ -63,24 +63,39 @@
                 +1 720 886 5500 <br>
                 <img  class="school--logo" src="img/grandview.png" alt="">
             </div>
+
+             
             <div class="logo logo__page" onclick="window.location.href='shop.html'"></div> 
+           
         </div>
+        
         <div class="footer--link-">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="shop.html">Rent</a>
             <a href="contacts.html">Contact Us</a>
         </div> 
-        <div class="">
+        <br>
+        <div class="footer--link--">
             <div>
-        
                 <img  class="logo--social" src="img/twitter2.png" alt="">
-                <img  class="logo--social" src="img/snapchat.png" alt="">
+                <img  class="logo--social" src="img/insta.png" alt="">
+
             </div>
+            <!-- <div class=""> -->
+                <a href="misc.html" onclick="sessionStorage.setItem('misc',0)">Legal & Policies</a>
+                <a href="misc.html" onclick="javascript:sessionStorage.setItem('misc',1)">FAQs</a>
+                <a href="misc.html">Rental/Shipping Agreement</a>
+                <a href="misc.html">Terms and Conditions</a>
+                <a href="misc.html">Terms of Use</a>
+            <!-- </div>    -->
             
-            <div class="copy">NexBook</div>
-            <div class="copy">&copy; 2019 by Daniela Solok & Aaron Vaddakan</div>
         </div>
+        <br>
+    
+        <div class="footer--link--row">NexBook</div>
+        <div class="footer--link--row">&copy; 2019 by Daniela Solok & Aaron Vadakkan</div>
+    
         
         
     </footer>

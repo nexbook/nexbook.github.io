@@ -1,12 +1,84 @@
 // Books Categories
 // 1 - AP Classes
 // 2 - Test Prep
-// 3 - English / Social Studies
+// 3 - Languages / Social Studies
 // 4 - Math / Science
 
 // Array of Books
 
 const books = [
+    {
+        title: 'AP US History + Flashcards Bundle',
+        url: 'img/US History.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 1.49,
+        stock: 3,
+        cat: 3
+    },
+    {
+        title: 'AP US History Flashcards',
+        url: 'img/US History Flashcards.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 3
+    },
+    {
+        title: 'AP US History',
+        url: 'img/US History.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 3
+    },
+    {
+        title: 'AP Biology',
+        url: 'img/AP Biology.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 4
+    },
+    {
+        title: 'AP Physics 1',
+        url: 'img/AP Physics.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 4
+    },
+    {
+        title: 'AP European History Flashcards',
+        url: 'img/AP History.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 3
+    },
+    {
+        title: 'AP US Government & Politics',
+        url: 'img/AP Gov.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 3
+    },
+    {
+        title: 'AP Calculus',
+        url: 'img/AP Calc.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 4
+    },
+    {
+        title: 'AP Chemistry Exam',
+        url: 'img/AP Chemistry Exam.jpg',
+        description: 'This is what you really need before you go to sleep',
+        price: 0.99,
+        stock: 3,
+        cat: 4
+    },
     {
         title: 'AP Environmental Science',
         url: 'img/AP Environment.jpg',
@@ -21,7 +93,7 @@ const books = [
         description: 'This is what you really need before you go to sleep',
         price: 0.99,
         stock: 3,
-        cat: 4
+        cat: 3
     },
     {
         title: 'AP Psychology',
@@ -40,7 +112,7 @@ const books = [
         cat: 3
     },
     {
-        title: 'Prep Guide 2019-2020',
+        title: 'ACT Prep Guide 2019-2020',
         url: 'img/prepguide.jpg',
         description: 'This is what you really need before you go to sleep',
         price: 1.49,
@@ -69,7 +141,7 @@ const books = [
         description: 'This is what you really need before you go to sleep',
         price: 1.49,
         stock: 3,
-        cat: 1
+        cat: 2
     }
     
 ];
@@ -115,7 +187,7 @@ const uploadItems= ()=>{
                 catContent = "Test Prep";
                 break;
             case 3:
-                catContent = "English/Social Studies";
+                catContent = "Languages/Social Studies";
                 break;
             case 4:
                 catContent = "Math/Science";

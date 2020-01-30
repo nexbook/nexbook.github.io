@@ -18,12 +18,27 @@ html{
     
 }
 
+@media only screen and (max-width: 1200px) {
+    html{
+        font-size: 54%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    html{
+        font-size: 48%;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     html{
         font-size: 42%;
     }
 
 }
+
 
 body {
     box-sizing: border-box;
@@ -44,7 +59,7 @@ body {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image:linear-gradient(to right bottom, rgba(80, 48, 156, 0.75), rgba(52, 63, 212, 0.75)) , url('../img/books_bg_m.png'); 
     background-size: cover;
     background-position: center;
@@ -215,7 +230,9 @@ hr {
 .schools{
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    /* justify-items: center;
+    align-items: center; */
+    justify-content: space-between;
     flex-wrap: wrap;
     animation:  fadeIn 1s 1.2s ease-in-out backwards;
 }

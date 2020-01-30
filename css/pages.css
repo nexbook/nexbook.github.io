@@ -29,7 +29,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     background-image:linear-gradient(to right bottom, rgba(173, 158, 207, 0.75), rgba(157, 141, 187, 0.75)) , url('../img/books_bg_2.jpg'); 
     /* height: 100%; */
     background-attachment: fixed;
-    padding-top: 6%;
+    /* padding-top: 6%; */
 }
 .container_ {
     background-image:linear-gradient(to right bottom, rgba(173, 158, 207, 0.9), rgba(157, 141, 187, 0.9)) , url('../img/books_bg_4.jpg'); 
@@ -38,7 +38,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
 .container-- {
     background-image:linear-gradient(to right bottom, rgba(80, 48, 156, 0.75), rgba(52, 63, 212, 0.75)) , url('../img/books_bg_m.png'); 
     background-attachment: fixed;
-  
+   
 }
 .container--checkout{
 
@@ -251,7 +251,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     position: fixed;
     z-index: 555;
     width: 100%;
-    
+    height: 7.2rem;
     /* position: absolute; */
 
     display: flex;
@@ -340,7 +340,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     font-size: 1.8rem;
 }
 
-.about, .shop{
+.about, .shop, .about--{
 
     background: rgba(255,255,255, .75);
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -357,11 +357,21 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     width: 90%;
     border-radius: 6px;
 }
+
 .about:last-of-type{
     margin-bottom: 3rem;
 }
+.about:first-of-type{
+    margin-top: 9rem;
+}
+
+.about--{
+    margin: 9rem 1.5rem 3rem 1.5rem;
+    font-size: 2.1rem;
+    
+}
 .shop{
-    margin:12rem 1.5rem 0 1.5rem;
+    margin:12rem 1.5rem 3rem 1.5rem;
     position: relative;
     width: 96%;
 }
@@ -414,6 +424,13 @@ footer{
     padding: .3rem 0;
 }
 
+.footer--link--row{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+
 .footer--link- a{
     text-decoration: none;
     color: rgb(173, 158, 207);
@@ -423,9 +440,29 @@ footer{
     color: whitesmoke;
 }
 
+.footer--link--{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer--link-- a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 0 1rem 0 1rem;
+    font-size: 1.2rem;
+}
+.footer--link-- a:hover{
+    text-decoration: underline;
+    transition: all .45s ease;
+    color: rgb(173, 158, 207);;
+}
+}
+
 
 .copy{
     text-align: center;
+    width: 100%;
 }
 .school--logo{
     height: 4.5rem;
