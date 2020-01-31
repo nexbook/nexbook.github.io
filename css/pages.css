@@ -443,14 +443,24 @@ footer{
 .footer--link--{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer--link--, .footer--link{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
 .footer--link-- a{
     text-decoration: none;
     color: whitesmoke;
-    text-transform: uppercase;
     padding: 0 1rem 0 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .footer--link-- a:hover{
     text-decoration: underline;
