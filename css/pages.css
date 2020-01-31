@@ -435,6 +435,7 @@ footer{
 }
 .footer--link{
     justify-content: space-between;
+    text-decoration: none;
 }
 .footer--link-{
     justify-content: space-evenly;
