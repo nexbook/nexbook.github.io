@@ -289,19 +289,26 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     position: absolute;
     top: 0;
     left: 1rem;
+    margin-bottom: 3rem;
 }
 
 .dropbtn {
     background:rgba(173, 158, 207, 0.96);
-    color: white;
-    padding: .6rem;
-    font-size: 1.5rem;
+    color: rgb(71, 51, 119);
+    font-size: 2.1rem;
     border: none;
     cursor: pointer;
+    padding: .9rem 3rem .9rem 3rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    border-radius: 6px;
+    transition: all ease-in .3s;
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color:rgba(92, 71, 141, 0.96);
+    background-color:rgba(71, 51, 119, 0.96);
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px rgba(128, 0, 128, 0.3);
   }
   
   .dropdown {
@@ -351,6 +358,9 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     padding: 1.5rem;
     color: rgb(95, 32, 110);;
     animation: fadeIn .6s 1.2s ease-in backwards;
+}
+.shop h2{
+    margin-top: 2.1rem;
 }
 .about{
     margin:1rem 3.6rem 0 3.6rem;

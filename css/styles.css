@@ -80,13 +80,8 @@ body {
 .head__title{
     margin: 0 auto;
     padding: 3rem;
-    /* position: absolute; */
-    /* height: 39rem; */
-    /* background: rgba(255,255,255, .3); */
     text-align: center;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%); */
-    /* box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.9); */
-    /* transform: translateY(45%); */
+
 }
 
 .logo{
