@@ -289,7 +289,9 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     position: absolute;
     top: 0;
     left: 1rem;
-    margin-bottom: 3rem;
+    margin: 7.2rem 0 3rem 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
 }
 
 .dropbtn {
@@ -309,6 +311,14 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     background-color:rgba(71, 51, 119, 0.96);
     color: whitesmoke;
     box-shadow: 3px 3px 3px rgba(128, 0, 128, 0.3);
+    outline: none;
+  }
+
+  #drop__cat{
+    padding-left: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
   }
   
   .dropdown {
@@ -320,6 +330,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     display: none;
     position: absolute;
     background-color: #f1f1f1;
+    font-size: 2.4rem;
     min-width: 16rem;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -332,7 +343,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     padding: .6rem .3rem;
     text-decoration: none;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     cursor: pointer;
   }
   
@@ -343,9 +354,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
       
 }
 
-#drop__cat{
-    font-size: 1.8rem;
-}
+
 
 .about, .shop, .about--{
 
@@ -381,7 +390,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     width: 90%;
 }
 .shop{
-    margin:12rem 1.5rem 3rem 1.5rem;
+    margin:15rem 1.5rem 3rem 1.5rem;
     position: relative;
     width: 96%;
 }
