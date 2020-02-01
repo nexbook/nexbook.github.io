@@ -16,3 +16,7 @@
 .misc--content{
     display: none;
 }
+.misc--logo{
+    display: block;
+    width: 15rem;
+}

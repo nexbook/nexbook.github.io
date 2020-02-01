@@ -15,21 +15,21 @@ html{
 
 @media only screen and (max-width: 1200px) {
     html{
-        font-size: 54%;
+        font-size: 57%;
     }
 
 }
 
 @media only screen and (max-width: 900px) {
     html{
-        font-size: 48%;
+        font-size: 54%;
     }
 
 }
 
 @media only screen and (max-width: 600px) {
     html{
-        font-size: 42%;
+        font-size: 51%;
     }
     div{
         text-decoration: none;
