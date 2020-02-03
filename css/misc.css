@@ -3,18 +3,33 @@
     flex-direction: row;
     width: 100%;
 }
+.misc--title-{
+    display: block;
+    width: 100%;
+}
 .misc--subtitle{
     display: flex;
     flex-direction: row;
-    justify-content: start;
     cursor: pointer;
     transition: all ease-in .3s;
 }
-.misc--subtitle:hover{
+.misc--subtitle-{
+    display: block;
+    cursor:pointer;
+    text-align: center;
+    font-size: 2.4rem;
+}
+.misc--subtitle{
+    justify-content: start;
+}
+
+.misc--subtitle:hover,
+.misc--subtitle-:hover{
     color: chocolate;
 }
 .misc--content{
     display: none;
+    text-align: justify;
 }
 .misc--logo{
     display: block;

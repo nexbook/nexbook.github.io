@@ -170,7 +170,7 @@ body {
 .button__home{
     margin-top: 1rem;
     border: none;
-    padding: 1rem;
+    padding: 1.5rem 3rem 1.5rem 3rem;
     color: whitesmoke;
     background:rgb(120,45,190);
     border-bottom: 3px solid rgb(52, 17, 85);
@@ -178,7 +178,7 @@ body {
     cursor: pointer;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 3.6rem;
     animation:  fadeIn 1s 1.2s ease-in-out backwards;
 
 }
@@ -225,7 +225,7 @@ hr {
     flex-direction: row;
     /* justify-items: center;
     align-items: center; */
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     animation:  fadeIn 1s 1.2s ease-in-out backwards;
 }

@@ -24,6 +24,7 @@ const fillContent = ()=>{
 const expandDiv=(num)=>{
     let ms=document.querySelectorAll(".plusMinus");
     let cn=document.querySelectorAll(".misc--content");
+          
     if (ms[num].textContent==="-") {
         ms[num].textContent="+";
         cn[num].style.display="none";
@@ -31,6 +32,7 @@ const expandDiv=(num)=>{
         ms[num].textContent="-";
         cn[num].style.display="block";
     };
+    
 }
 
 const content = [

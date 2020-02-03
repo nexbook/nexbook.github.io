@@ -11,7 +11,7 @@ const books = [
         title: 'AP US History + Flashcards Bundle',
         url: 'img/US History.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 1.49,
+        price: 0.11,
         stock: 3,
         cat: 3
     },
@@ -19,7 +19,7 @@ const books = [
         title: 'AP US History Flashcards',
         url: 'img/US History Flashcards.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.05,
         stock: 3,
         cat: 3
     },
@@ -27,7 +27,7 @@ const books = [
         title: 'AP US History',
         url: 'img/US History.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.06,
         stock: 3,
         cat: 3
     },
@@ -35,7 +35,7 @@ const books = [
         title: 'AP Biology',
         url: 'img/AP Biology.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.06,
         stock: 3,
         cat: 4
     },
@@ -43,7 +43,7 @@ const books = [
         title: 'AP Physics 1',
         url: 'img/AP Physics.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.07,
         stock: 3,
         cat: 4
     },
@@ -51,7 +51,7 @@ const books = [
         title: 'AP European History Flashcards',
         url: 'img/AP History.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.08,
         stock: 3,
         cat: 3
     },
@@ -59,7 +59,7 @@ const books = [
         title: 'AP US Government & Politics',
         url: 'img/AP Gov.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.07,
         stock: 3,
         cat: 3
     },
@@ -67,7 +67,7 @@ const books = [
         title: 'AP Calculus',
         url: 'img/AP Calc.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.08,
         stock: 3,
         cat: 4
     },
@@ -75,7 +75,7 @@ const books = [
         title: 'AP Chemistry Exam',
         url: 'img/AP Chemistry Exam.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.06,
         stock: 3,
         cat: 4
     },
@@ -83,7 +83,7 @@ const books = [
         title: 'AP Environmental Science',
         url: 'img/AP Environment.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.08,
         stock: 3,
         cat: 4
     },
@@ -91,7 +91,7 @@ const books = [
         title: 'AP Human Geography',
         url: 'img/AP Human Geography.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.07,
         stock: 3,
         cat: 3
     },
@@ -99,7 +99,7 @@ const books = [
         title: 'AP Psychology',
         url: 'img/AP Psycology.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.07,
         stock: 3,
         cat: 3
     },
@@ -107,7 +107,7 @@ const books = [
         title: 'AP Spanish',
         url: 'img/AP Spanish.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.06,
         stock: 3,
         cat: 3
     },
@@ -115,7 +115,7 @@ const books = [
         title: 'ACT Prep Guide 2019-2020',
         url: 'img/prepguide.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 1.49,
+        price: 0.11,
         stock: 3,
         cat: 2
     },
@@ -123,7 +123,7 @@ const books = [
         title: 'New PSAT/NMSQT',
         url: 'img/PSAT.jpg',
         description: 'This is what you really need before you go to sleep! This is what you really need before you go to sleep!',
-        price: 0.99,
+        price: 0.07,
         stock: 3,
         cat: 2
     },
@@ -131,7 +131,7 @@ const books = [
         title: 'AP Biology',
         url: 'img/SAP Biology.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 0.99,
+        price: 0.06,
         stock: 3,
         cat: 4
     },
@@ -139,7 +139,7 @@ const books = [
         title: 'SAT',
         url: 'img/SAT.jpg',
         description: 'This is what you really need before you go to sleep',
-        price: 1.49,
+        price: 0.06,
         stock: 3,
         cat: 2
     }

@@ -7,17 +7,22 @@ sessionStorage.inCart ? inCart = JSON.parse(sessionStorage.inCart) : inCart=[];
 const url_recycle ='img/recycle.png';
 
 const uploadCheckout=()=>{
+    const date1 = new Date(Date.now());
+    const date2 = new Date('5/20/2020');
+    const diffTime = Math.abs(date2 - date1);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
     
+    let input = document.getElementById("daysToRent");
+    input.setAttribute("max", diffDays);
+    document.getElementById("spanMax").textContent=diffDays;
     
     let article = document.createElement("article")
-    article.className = "card--";
-
+    article.className = "card---";
+    
     let total=0;
         
     for (i=0; i< fakeCart.length; i++){
-        // console.log(fakeCart[i].title);
-        // console.log(fakeCart[i].price);
-        
+                
         let div = document.createElement("div");
         
         let item = document.createElement("div");
@@ -30,22 +35,22 @@ const uploadCheckout=()=>{
     
         let itemPrice = document.createElement("span");
         itemPrice.className = "chk__price";
-        let priceNode = document.createTextNode("$ " + parseFloat(fakeCart[i].price * slider.value/10).toFixed(2));
+        let priceNode = document.createTextNode("$ " + parseFloat(fakeCart[i].price * slider.value).toFixed(2));
         itemPrice.appendChild(priceNode);
-        total+=Number(parseFloat(fakeCart[i].price * slider.value/10).toFixed(2));
+        total+=Number(parseFloat(fakeCart[i].price * slider.value).toFixed(2));
 
-        let recycleImg = document.createElement("span");
-        recycleImg.className = "recycle__image";
+        // let recycleImg = document.createElement("span");
+        // recycleImg.className = "recycle__image";
         
-        let img = document.createElement("img");
-        img.src= url_recycle;
-        img.alt="remove";
+        // let img = document.createElement("img");
+        // img.src= url_recycle;
+        // img.alt="remove";
         
-        recycleImg.appendChild(img);
+        // recycleImg.appendChild(img);
 
         item.appendChild(itemTitle);
         item.appendChild(itemPrice);
-        item.appendChild(recycleImg);
+        // item.appendChild(recycleImg);
         
         div.appendChild(item);
 
@@ -61,7 +66,7 @@ const uploadCheckout=()=>{
     
 
     let chkButton = document.createElement("button")
-    chkButton.className = "btn";
+    chkButton.className = "btn-";
     chkButton.addEventListener('click', ()=>{
         location.href='payment.html';
     }); 
@@ -88,7 +93,7 @@ sessionStorage.dueDate = newDate;
 retDate.textContent = "Return By: " +  newDate.getFullYear() + "/" + (newDate.getMonth()+1) + "/" + newDate.getDate();
 
 slider.addEventListener('change', ()=>{
-    let cards = document.querySelector(".card--");
+    let cards = document.querySelector(".card---");
     cards.remove();
     
     let newDate = new Date(Date.now() + slider.value*24*60*60*1000);
@@ -97,8 +102,3 @@ slider.addEventListener('change', ()=>{
     uploadCheckout();
 
 });
-
-
-
-
-

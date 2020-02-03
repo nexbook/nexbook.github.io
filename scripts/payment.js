@@ -1,6 +1,6 @@
 const uploadPayment=()=>{
    let total = document.getElementById("subtot");
-   total.textContent = "$" + sessionStorage.total;
+   total.textContent = "$" + parseFloat(sessionStorage.total).toFixed(2);
    let dueDate = document.getElementById("dueDate");
    let returnBy = new Date(sessionStorage.dueDate);
    dueDate.textContent = returnBy.getFullYear() + "/" + (returnBy.getMonth()+1) + "/" + returnBy.getDate();
@@ -34,7 +34,8 @@ const checkRadio=()=>{
 }
 
 const formSubmitted=()=>{
-   alert('Your Order Has Been Placed! Thank You!');
+   
+   alert('Your Order Has Been Placed! Thank You! The confirmation letter has been sent to the email provided by you.');
    sessionStorage.clear()
    window.location.href="index.html";
 }

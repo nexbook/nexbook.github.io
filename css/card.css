@@ -8,7 +8,7 @@
     
 }
   
-  .card, .card-- {
+  .card, .card--, .card--- {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     margin: 1.2rem;
     background: rgba(255,255,255,.9);
@@ -22,6 +22,9 @@
   .card--{
     width: 42rem;
   }
+  .card---{
+    width: 100%;
+}
   
   .card__header,
   .card__content {
@@ -95,7 +98,7 @@
       margin: 0 0.25rem;
   }
   
-  .btn {
+  .btn, .btn- {
     font: inherit;
     width: 45%;
     border: 1px solid #5a1791;
@@ -105,8 +108,14 @@
     cursor: pointer;
     transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
+  .btn-{
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
   
   .btn:hover,
+  .btn:active,
+  .btn-:hover,
   .btn:active {
     background-color: #5a1791;
     color: white;

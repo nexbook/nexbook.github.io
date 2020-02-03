@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pages.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/misc.css">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Bebas+Neue|Charm|Darker+Grotesque|Gugi|Staatliches&display|Abel&display=swap" rel="stylesheet">
     <title>NexBook | Payment</title>
 </head>
@@ -22,20 +23,20 @@
                 </div>
             </div>
             
-            <form action="javascript:;" onsubmit="formSubmitted(this)" method="post" class="form--items">
+            <form id="pForm" action="javascript:;" onsubmit="formSubmitted(this)" method="post" class="form--items">
                 <p>Student:</p>
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required> <br>
-                <input type="email" placeholder="email" required> <br>
+                <input type="text" placeholder="First Name" id="fName" required>
+                <input type="text" placeholder="Last Name" id="lName" required> <br>
+                <input type="email" placeholder="email" id="sEmail" required> <br>
                 <p> School Attending</p>
                 <select>
                     <option value="GVHS">Grandview</option>
-                    <option value="EC">Eaglecrest</option>
-                    <option value="CT">Cherokee Trail</option>
-                    <option value="OL">Overland</option>
-                    <option value="SH">Smoky Hills</option>
+                    <option value="EC">Denver East</option>
                 </select>
-                <p>Card / PayPal: </p>
+                <br>
+                <p>Student's ID:</p>
+                <input type="number" placeholder="8-digits school Id" id="schoolId" required>
+                <br>
                 <input type="radio" id="visa" name="payment" value="card" checked="checked" onclick="checkRadio()"> Card
                 <input type="radio" id="pp" name="payment" value="pp" onclick="checkRadio()"> PayPal<br>
 <!-- CARD DETAILS -->
@@ -46,7 +47,7 @@
                     <input id="c3" type="number" min="2020" max="2099" step="1" value="2020" placeholder="year"  required>
                     <input id="c4" type="number" min="01" max="12" step="1"  value="12" placeholder="month" required>
                     <br>
-                    <input id="c5" type="password" placeholder="CCV" required>
+                    <input id="c5" type="password" placeholder="CVV" required>
                 </div>
 <!-- PAYPAL DETAILS -->
                 <div id="ppId">
@@ -62,9 +63,24 @@
                     <option value="GVHS-">Grandview High School</option>
                     <option value="DEHS">Denver East High School</option>
                 </select>
-                <p>Due Date: </p>
+                <br>
                 <input type="checkbox" name="terms" value="" required> I agree to terms and conditions and return by<br>
+                <p>Due Date: </p>
                 <span id="dueDate"></span>
+                <br>
+                
+                <div class="misc--title-">
+                    <div class="misc--title--div">
+                        <div class="misc--subtitle-">
+                            <h3 onclick="expandDiv(0)"><span class="plusMinus">+</span><strong class="subheader">Payments & Payment Processing</strong></h3>
+                        </div>
+                        <p></p>
+                        <div class="misc--content">
+                            NexBook may require its users to provide a valid method of payment when they register for an account to ensure users are able to make applicable payments to NexBook. If a method of payment is required, you are responsible for ensuring that a valid method of payment is associated with your NexBook account at all times. If your method of payment is changed for any reason, the user information on your NexBook account will need to display that. To confirm your method of payment is valid, NexBook may initiate a "pending" charge on the account. This charge will not be confirmed and you will not be charged; it will simply disappear from your financial statement, usually within seven (7) days. Please be aware that this pending charge may be initiated each time you edit the payment information for your account or place an order that cannot be processed. For certain transactions (e.g., book rentals, tutoring sessions), we may authorize anticipated charges and taxes. The amount of the authorization will depend on the transaction and may also vary depending on the payment method you have provided. This is referred to as an authorization hold and these funds may not be available for your use. If the fees incurred exceed the authorization hold because of fines, we may automatically request additional authorization holds. If the provider for your method of payment rejects any authorization, you agree that we may charge any other method of payment we have on file for you. At the conclusion or termination of an ongoing transaction, like the return of a rented book, if the charges do not exceed the amount due, the authorization for the amount not utilized will be released. The timeframe for an authorization hold to be removed depends on the policies of your financial institution.You are responsible and liable for ensuring that enough funds are available in connection with the payment method used at the time any transaction is processed.
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
                 <br>
                 <input type="submit" class="btn" value="$ PAY $">
             </form>
@@ -122,5 +138,6 @@
     
           
     <script src="scripts/payment.js"></script>
+    <script src="scripts/misc.js"></script>
 </body>
 </html>

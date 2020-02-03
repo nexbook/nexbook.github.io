@@ -88,7 +88,7 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
 }
 
 .checkout--{
-    height: 100%;
+    min-height: 93vh;
 }
 .checkout---{
     background-attachment: fixed;
@@ -101,12 +101,18 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     
 }
 
+
 .div{
-    width: 75%;
+    width: 78%;
+    
+}
+.div p{
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 #grid--checkout{
-
+    width: 90%;
 }
 .slider--flex {
     display: flex;
@@ -114,7 +120,8 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     flex-grow: 1;
     width: 100%;
     align-content: space-around;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
 .slider {
@@ -152,7 +159,8 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 1.8rem;
+    font-size: 3rem;
+    font-weight: 600;
     width: 100%;
 }
 
@@ -166,10 +174,12 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     justify-content: space-between;
     margin-bottom: .3rem;
     background: linear-gradient(to bottom, rgba(128, 0, 128, 0.3), rgba(228, 216, 216, 0.3));
-    padding: .6rem;
+    padding: 1.2rem 0 1.2rem 0;
     border-radius: 6px 6px 0 0;
     border: 1px solid whitesmoke;
     color: rgb(128,0,128);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2.4rem;
     font-weight: 600;
     
     cursor: pointer;
@@ -203,8 +213,8 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     transition: all .45s ease-in;
 }
 .tot__price{
-    font-size: 2.1rem;
-    font-weight: 600;
+    font-size: 3.6rem;
+    font-weight: 700;
     padding-bottom: 1rem;
 }
 
@@ -517,13 +527,20 @@ footer{
 
 
 .form--items{
-    background-color: rgba(221, 203, 176, 0.74);
+    background-color: rgba(221, 203, 176, 0.87);
     border-radius: 6px;
     box-shadow: rgba(173, 158, 207, 0.75);
     padding: 1rem;
     font-size: 2.4rem;
+    font-weight: 500;
     margin: 1rem 0 1rem 0;
-    width: 81%;
+    width: 66%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .form--items{
+        width: 93%;
+    }
 }
 
 input, select {
@@ -535,6 +552,7 @@ input, select {
 #dueDate, #subtot {
     font-size: 3.3rem;
     font-weight: 600;
+    color: whitesmoke;
 }
 
 #visaId{
