@@ -32,7 +32,9 @@
     font-size: 1.8rem;
     overflow: hidden;
   }
-  
+  .card__header{
+    min-height: 12rem;
+  }
   .card__header h1,
   .card__content h1,
   .card__content h3,

@@ -8,139 +8,292 @@
 
 const books = [
     {
-        title: 'AP US History + Flashcards Bundle',
+        title: "Barron's AP US History Test Prep Book + Flashcards Bundle",
         url: 'img/US History.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description: [
+            'Quality: very good',
+            'Publication date: 2018',
+            'Author: Eugene V. Resnick M.A., Kevin D. Preis Ed.M., Micheal R. Bergman J.D',
+            'List Price: $33.86',
+            'Format: Paperback',
+            'ISBN-10: 1438011083',
+            'ISDN-13: 978-1438011083',
+            'Edition: 4th Edition'
+        ],
         price: 0.11,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP US History Flashcards',
+        title: "Barron's AP US History Flashcards",
         url: 'img/US History Flashcards.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: good',
+            'Publication date: 2018',
+            'Author: Eugene V. Resnick M.A.',
+            'List Price: $14.77',
+            'Format: Paperback',
+            'ISBN-10: 1438011083',
+            'ISDN-13: 978-1438011080',
+            'Edition: 3rd Edition'
+        ],
         price: 0.05,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP US History',
+        title: "Barron's AP US History Test Preparation Book",
         url: 'img/US History.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: very good',
+            'Publication date: 2018',
+            'Author: Eugene V. Resnick M.A.',
+            'List Price: $19.09',
+            'Format: Paperback',
+            'ISBN-10: 1438076118',
+            'ISDN-13: 978-1438076119',
+            'Edition: 3rd Edition'
+        ],
         price: 0.06,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP Biology',
+        title: "Barron's AP Biology Flashcards",
         url: 'img/AP Biology.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: good',
+            'Publication date: 2017',
+            'Author: Deborah T., Goldberg M.S.',
+            'List Price: $18.99',
+            'Format: Paperback',
+            'ISBN-10: 1438076118',
+            'ISDN-13: 978-1438076118',
+            'Edition: 3rd Edition'
+        ],
         price: 0.06,
-        stock: 3,
+        stock: 25,
         cat: 4
     },
     {
-        title: 'AP Physics 1',
+        title: "Barron's AP Physics 1 Test Prep Book",
         url: 'img/AP Physics.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: good',
+            'Publication date: 2018',
+            'Author: Rideout M.S., Jonathon Wolf M.A. Ed. M',
+            'List Price: $21.99',
+            'Format: Paperback',
+            'ISBN-10: 1438010701',
+            'ISDN-13: 978-1438010717',
+            'Edition: 3rd Edition'
+        ],
         price: 0.07,
-        stock: 3,
+        stock: 25,
         cat: 4
     },
     {
-        title: 'AP European History Flashcards',
+        title: "Barron's AP European History Flashcards",
         url: 'img/AP History.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: good',
+            'Publication date: 2018',
+            'Author: Seth A., Roberts M.A.',
+            'List Price: $23.99',
+            'Format: Paperback',
+            'ISBN-10: 1438010670',
+            'ISDN-13: 978-1438010670',
+            'Edition: 9th Edition'
+        ],
         price: 0.08,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP US Government & Politics',
+        title: "Barron's AP US Government & Politics Test Prep Book",
         url: 'img/AP Gov.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: good',
+            'Publication date: 2018',
+            'Author: Curt Lader M.S. Ed.',
+            'List Price: $22.09',
+            'Format: Paperback',
+            'ISBN-10: 1438011684',
+            'ISDN-13: 978-1438011684',
+            'Edition: 11th Edition'
+        ],
         price: 0.07,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP Calculus',
+        title: "Barron's AP Calculus AB Test Prep Book",
         url: 'img/AP Calc.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: excellent',
+            'Publication date: 2018',
+            'Author: David Brock M.S., Dennis Donovan M.S., Shirley O. Hockett Ph. D',
+            'List Price: $24.99',
+            'Format: Paperback',
+            'ISBN-10: 1506261906',
+            'ISDN-13: 978-1506261904',
+            'Edition: 15th Edition'
+        ],
         price: 0.08,
-        stock: 3,
+        stock: 25,
         cat: 4
     },
     {
-        title: 'AP Chemistry Exam',
+        title: 'Cracking The AP Chemistry Exam Book',
         url: 'img/AP Chemistry Exam.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: good',
+            'Publication date: 2018',
+            'Author: The Princeton Review',
+            'List Price: $19.99',
+            'Format: Paperback',
+            'ISBN-10: 0525568186',
+            'ISDN-13: 978-025568186',
+            'Edition: 8th Edition'
+        ],
         price: 0.06,
-        stock: 3,
+        stock: 25,
         cat: 4
     },
     {
-        title: 'AP Environmental Science',
+        title: "Barron's AP Environmental Science Test Prep Book",
         url: 'img/AP Environment.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: excellent',
+            'Publication date: 2017',
+            'Author: Gary S., Thorpe M.S.',
+            'List Price: $24.99',
+            'Format: Paperback',
+            'ISBN-10: 1438008651',
+            'ISDN-13: 978-1438008653',
+            'Edition: 4th Edition'
+        ],
         price: 0.08,
-        stock: 3,
+        stock: 25,
         cat: 4
     },
     {
-        title: 'AP Human Geography',
+        title: "Barron's AP Human Geography Test Prep Book",
         url: 'img/AP Human Geography.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: very good',
+            'Publication date: 2018',
+            'Author: Meredith Marsh Ph.D., Peter S. Alagona Ph. D',
+            'List Price: $22.99',
+            'Format: Paperback',
+            'ISBN-10: 1439010680',
+            'ISDN-13: 978-1438011087',
+            'Edition: 7th Edition'
+        ],
         price: 0.07,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP Psychology',
-        url: 'img/AP Psycology.jpg',
-        description: 'This is what you really need before you go to sleep',
+        title: "Barron's AP Psychology Test Prep Book",
+        url: 'img/AP Psychology.jpg',
+        description:  [
+            'Quality: very good',
+            'Publication date: 2018',
+            'Author: Allyson Wesley Ed. D., Robert McEntartffer Ph.D.',
+            'List Price: $22.99',
+            'Format: Paperback',
+            'ISBN-10: 1438010699',
+            'ISDN-13: 978-1438010694',
+            'Edition: 14th Edition'
+        ],
         price: 0.07,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'AP Spanish',
+        title: "Barron's AP Spanish Language and Culture Test Prep Book",
         url: 'img/AP Spanish.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: very good',
+            'Publication date: 2019',
+            'Author: Daniel Paolicchi M.A., Alice Gericke Springer',
+            'List Price: $18.99',
+            'Format: Paperback',
+            'ISBN-10: 1506262000',
+            'ISDN-13: 978-1506262000',
+            'Edition: 10th Edition'
+        ],
         price: 0.06,
-        stock: 3,
+        stock: 25,
         cat: 3
     },
     {
-        title: 'ACT Prep Guide 2019-2020',
+        title: 'ACT Preparation Guide 2019-2020',
         url: 'img/prepguide.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: excellent',
+            'Publication date: 2019',
+            'Author: ACT',
+            'List Price: $34.95',
+            'Format: Paperback',
+            'ISBN-10: 1119580501',
+            'ISDN-13: 978-1119580508',
+            'Edition: Wiley 1 Edition'
+        ],
         price: 0.11,
-        stock: 3,
+        stock: 25,
         cat: 2
     },
     {
-        title: 'New PSAT/NMSQT',
+        title: "Barron's New PSAT/NMSQT Prep Guide",
         url: 'img/PSAT.jpg',
-        description: 'This is what you really need before you go to sleep! This is what you really need before you go to sleep!',
+        description:  [
+            'Quality: very good',
+            'Publication date: 2018',
+            'Author: Ira K. Wolf Ph.D., Sharon W. Green M.A., Brian W. Stewart M.Ed.',
+            'List Price: $22.99',
+            'Format: Paperback',
+            'ISBN-10: 1438011067',
+            'ISDN-13: 978-1438011067',
+            'Edition: 19th Edition'
+        ],
         price: 0.07,
-        stock: 3,
+        stock: 25,
         cat: 2
     },
     {
-        title: 'AP Biology',
+        title: "Barron's AP Biology Prep Book",
         url: 'img/SAP Biology.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: very good',
+            'Publication date: 2018',
+            'Author: Deborah T., Goldberg M.S.',
+            'List Price: $18.99',
+            'Format: Paperback',
+            'ISBN-10: 1438008686',
+            'ISDN-13: 978-1438008684',
+            'Edition: 6th Edition'
+        ],
         price: 0.06,
-        stock: 3,
+        stock: 25,
         cat: 4
     },
     {
-        title: 'SAT',
+        title: 'SAT Study Guide (with 5 practice tests)',
         url: 'img/SAT.jpg',
-        description: 'This is what you really need before you go to sleep',
+        description:  [
+            'Quality: excellent',
+            'Publication date: 2019',
+            'Author: Sharon W. Green M.A., Ira K. Wolf Ph.D., Brian W. Stewart M.Ed.',
+            'List Price: $19.99',
+            'Format: Paperback',
+            'ISBN-10: 1506268026',
+            'ISDN-13: 978-1506258027',
+            'Edition: 13th Edition'
+        ],
         price: 0.06,
-        stock: 3,
+        stock: 25,
         cat: 2
     }
     
@@ -288,13 +441,25 @@ const uploadItems= ()=>{
         let stockNode = document.createTextNode("In Stock: " + item.stock);
         itemInStock.appendChild(stockNode);
 
+        let dContent = document.createElement("h3");
+        dContent.className = "product__description";
+        let dNode = document.createTextNode("+ Description");
+        dContent.appendChild(dNode);
+        
         let itemContent = document.createElement("p");
         itemContent.className = "product__description";
-        let contentNode = document.createTextNode(item.description);
-        itemContent.appendChild(contentNode);
+        for (i=0;i<8;i++) {
+            let contentNode = document.createTextNode(item.description[i]);
+            let descrBr = document.createElement("br");
+            itemContent.appendChild(contentNode);
+            itemContent.appendChild(descrBr);
+        }
+        
+        
 
         cardContent.appendChild(itemPrice);
         cardContent.appendChild(itemInStock);
+        cardContent.appendChild(dContent);
         cardContent.appendChild(itemContent);
         // 
         article.appendChild(header);
