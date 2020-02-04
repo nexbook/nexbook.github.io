@@ -442,9 +442,20 @@ const uploadItems= ()=>{
         itemInStock.appendChild(stockNode);
 
         let dContent = document.createElement("h3");
-        dContent.className = "product__description";
+        dContent.className = "descriptionTitle";
         let dNode = document.createTextNode("+ Description");
         dContent.appendChild(dNode);
+        
+        dContent.addEventListener('click', (e)=>{
+            
+            if (itemContent.style.display==="none"){
+                dContent.textContent="- Description";
+                itemContent.style.display=""
+            } else {
+                dContent.textContent="+ Description";
+                itemContent.style.display="none"
+            };
+        });
         
         let itemContent = document.createElement("p");
         itemContent.className = "product__description";
@@ -454,7 +465,7 @@ const uploadItems= ()=>{
             itemContent.appendChild(contentNode);
             itemContent.appendChild(descrBr);
         }
-        
+        itemContent.style.display="none";
         
 
         cardContent.appendChild(itemPrice);
