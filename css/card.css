@@ -33,7 +33,7 @@
     overflow: hidden;
   }
   .card__header{
-    min-height: 12rem;
+    min-height: 14rem;
   }
   .card__header h1,
   .card__content h1,
