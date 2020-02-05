@@ -52,7 +52,7 @@
     line-height: 2.1rem;
     padding: 1rem;
     border-radius: 1.5rem 0 0 0;
-    background-image: linear-gradient(to bottom right, rgba(218, 112, 214, 0.33), rgba(218, 112, 214, 0.09));
+    background-image: linear-gradient(to bottom right, rgba(218, 112, 214, 0.15), rgba(218, 112, 214, 0.09), rgba(218, 112, 214, 0.03));
     
   }
   .descriptionTitle{
