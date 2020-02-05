@@ -27,22 +27,18 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
 
 .container__ {
     background-image:linear-gradient(to right bottom, rgba(173, 158, 207, 0.75), rgba(157, 141, 187, 0.75)) , url('../img/books_bg_2.jpg'); 
-    /* height: 100%; */
     background-attachment: fixed;
-    /* padding-top: 6%; */
 }
 .container_ {
     background-image:linear-gradient(to right bottom, rgba(173, 158, 207, 0.9), rgba(157, 141, 187, 0.9)) , url('../img/books_bg_4.jpg'); 
     min-height: 93vh;
 }
 .container-- {
-    background-image:linear-gradient(to right bottom, rgba(80, 48, 156, 0.75), rgba(52, 63, 212, 0.75)) , url('../img/books_bg_m.png'); 
+    background-image:linear-gradient(to right bottom, rgba(80, 48, 156, 0.75), rgba(52, 63, 212, 0.75)) , url('../img/books_bg_xl.jpg'); 
     background-attachment: fixed;
    
 }
-.container--checkout{
 
-}
 
 .cart{
     padding-right: 1.5rem;
@@ -204,7 +200,6 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     
 }
 .chk--title h1{
-    /* transform: translateY(-6rem); */
     font-size: 2.1rem; 
 }
 .chk__price {
@@ -263,8 +258,6 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
     z-index: 555;
     width: 100%;
     height: 7.2rem;
-    /* position: absolute; */
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -366,7 +359,6 @@ font-family: 'Barlow Semi Condensed', sans-serif; */
 }
 
 
-
 .about, .shop, .about--{
 
     background: rgba(255,255,255, .87);
@@ -424,7 +416,7 @@ h2{
 }
 
 footer{
-    /* height: 9rem; */
+    
     padding: 1.5rem;
     bottom: 0;
     background: rgb(22, 19, 19);
@@ -436,7 +428,7 @@ footer{
     flex-direction: column;
     flex-grow: 1;
     flex-wrap: wrap;
-    /* justify-content: initial; */
+ 
 }
 
 .footer--link, .footer--link-{

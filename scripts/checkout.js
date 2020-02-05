@@ -39,21 +39,9 @@ const uploadCheckout=()=>{
         itemPrice.appendChild(priceNode);
         total+=Number(parseFloat(fakeCart[i].price * slider.value).toFixed(2));
 
-        // let recycleImg = document.createElement("span");
-        // recycleImg.className = "recycle__image";
-        
-        // let img = document.createElement("img");
-        // img.src= url_recycle;
-        // img.alt="remove";
-        
-        // recycleImg.appendChild(img);
-
         item.appendChild(itemTitle);
         item.appendChild(itemPrice);
-        // item.appendChild(recycleImg);
-        
         div.appendChild(item);
-
         article.appendChild(div);
     
     }
@@ -82,7 +70,7 @@ const uploadCheckout=()=>{
 
 let retDate = document.getElementById("return--date");
 let orderDate = document.getElementById("order--date");
-// orderDate.textContent = "HELLO" + new Date;
+
 let oldDate = new Date(Date.now());
 orderDate.textContent = "Order Date: " + oldDate.getFullYear() + "/" + (oldDate.getMonth()+1) + "/" + oldDate.getDate();
 
