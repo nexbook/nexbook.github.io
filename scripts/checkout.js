@@ -8,7 +8,7 @@ const url_recycle ='img/recycle.png';
 
 const uploadCheckout=()=>{
     const date1 = new Date(Date.now());
-    const date2 = new Date('5/20/2020');
+    const date2 = new Date('6/25/2020');
     const diffTime = Math.abs(date2 - date1);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
     

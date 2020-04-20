@@ -25,41 +25,41 @@
             
             <form id="pForm" action="javascript:;" onsubmit="formSubmitted(this)" method="post" class="form--items">
                 <p>Student:</p>
-                <input type="text" placeholder="First Name" id="fName" required>
-                <input type="text" placeholder="Last Name" id="lName" required> <br>
-                <input type="email" placeholder="email" id="sEmail" required> <br>
+                <input class="inputStyled" type="text" placeholder="First Name" id="fName" required>
+                <input class="inputStyled" type="text" placeholder="Last Name" id="lName" required> <br>
+                <input class="inputStyled"  type="email" placeholder="email" id="sEmail" required> <br>
                 <p> School Attending</p>
-                <select>
+                <select class="inputStyled">
                     <option value="GVHS">Grandview</option>
                     <option value="EC">Denver East</option>
                 </select>
                 <br>
                 <p>Student's ID:</p>
-                <input type="number" placeholder="8-digits school Id" id="schoolId" required>
+                <input class="inputStyled"  type="number" placeholder="8-digits school Id" id="schoolId" required>
                 <br>
                 <input type="radio" id="visa" name="payment" value="card" checked="checked" onclick="checkRadio()"> Card
                 <input type="radio" id="pp" name="payment" value="pp" onclick="checkRadio()"> PayPal<br>
 <!-- CARD DETAILS -->
                 <div id="visaId">
-                    <input id="c1" type="text" placeholder="Card Holder's Name" required> <br>
-                    <input id="c2" type="number" placeholder="Card Number" required> <br>
+                    <input class="inputStyled"  id="c1" type="text" placeholder="Card Holder's Name" required> <br>
+                    <input class="inputStyled"  id="c2" type="number" placeholder="Card Number" required> <br>
                     <p>Valid Thru:</p>
-                    <input id="c3" type="number" min="2020" max="2099" step="1" value="2020" placeholder="year"  required>
-                    <input id="c4" type="number" min="01" max="12" step="1"  value="12" placeholder="month" required>
+                    <input  class="inputStyled" id="c3" type="number" min="2020" max="2099" step="1" value="2020" placeholder="year"  required>
+                    <input  class="inputStyled" id="c4" type="number" min="01" max="12" step="1"  value="12" placeholder="month" required>
                     <br>
-                    <input id="c5" type="password" placeholder="CVV" required>
+                    <input  class="inputStyled" id="c5" type="password" placeholder="CVV" required>
                 </div>
 <!-- PAYPAL DETAILS -->
                 <div id="ppId">
-                    <input id="p1" type="text" placeholder="PayPal Account"> <br>
-                    <input id="p2" type="password" placeholder="Password"> <br>
+                    <input  class="inputStyled" id="p1" type="text" placeholder="PayPal Account"> <br>
+                    <input  class="inputStyled" id="p2" type="password" placeholder="Password"> <br>
                 </div>
                 
                 <p>Subtotal Due: </p>
                 <span id="subtot"></span>
                 <p>Shipping: </p>
                 <span>FREE SHIPPING ON ALL ORDERS</span> <br>
-                <select>
+                <select class="inputStyled" >
                     <option value="GVHS-">Grandview High School</option>
                     <option value="DEHS">Denver East High School</option>
                 </select>
@@ -126,7 +126,7 @@
             <br>
         
             <div class="footer--link--row">NexBook</div>
-            <div class="footer--link--row">&copy; 2019 by Daniela Solok & Aaron Vadakkan</div>
+            <div class="footer--link--row">&copy; 2019 by Daniela Solok</div>
         
             
             

@@ -35,3 +35,20 @@
     display: block;
     width: 15rem;
 }
+
+.inputStyled{
+    outline: none;
+    color: navy;
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    transition: all 0.3s ease-in;
+}
+
+.inputStyled:hover,
+.inputStyled:active,
+.inputStyled:link{
+    color: whitesmoke;
+    background:navy;
+    box-shadow: 0 0 3pt 2pt whitesmoke;
+}
